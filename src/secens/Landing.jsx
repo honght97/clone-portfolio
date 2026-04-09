@@ -98,19 +98,20 @@ const Landing = ({ setSelectedPage }) => {
           >
             contact me
           </AnchorLink>
-          <AnchorLink
+          <a
             className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5"
-            onClick={() => setSelectedPage("contact")}
-            href="#contact"
+            // onClick={() => setSelectedPage("contact")}
+            href="tel:+84973951118"
+            target="_blank"
           >
             <div
               className="bg-deep-blue hover:text-red transition duration-500
             w-full h-full flex items-center justify-center font-playfair px-10
             "
             >
-              Let's talk.
+              0973951118
             </div>
-          </AnchorLink>
+          </a>
         </motion.div>
         <motion.div
           className="flex mt-5 justify-center md:justify-start"
