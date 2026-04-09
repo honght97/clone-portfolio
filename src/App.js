@@ -6,7 +6,7 @@ import Landing from "./secens/Landing";
 import LineGradient from "./components/LineGradient";
 import MySkills from "./secens/MySkills";
 import Projects from "./secens/Projects";
-import Testimonials from "./secens/Testimonials";
+// import Testimonials from "./secens/Testimonials";
 import Contact from "./secens/Contact";
 import Footer from "./secens/Footer";
 function App() {
