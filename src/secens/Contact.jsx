@@ -13,7 +13,7 @@ const Contact = () => {
     if (!isVaild) e.preventDefault();
   };
   return (
-    <section id="contact" className="py-20 md:y-48">
+    <section id="contact" className="py-20 md:py-48">
       {/* headings */}
       <motion.div
         className=""
@@ -52,7 +52,11 @@ const Contact = () => {
             visible: { opacity: 1, y: 0 },
           }}
         >
-          <img src="assets/contact-image.jpeg" alt="contact" />
+          <img
+            src="/assets/contact-image.jpeg"
+            alt="contact"
+            className="w-full max-w-[520px] h-auto object-cover"
+          />
         </motion.div>
         <motion.div
           className="basis-1/2 mt-10 md:mt-0"
@@ -117,7 +121,7 @@ const Contact = () => {
               })}
             />
             {errors.message && (
-              <p classmessage="text-red mt-1">
+              <p className="text-red mt-1">
                 {errors.message.type === "required" &&
                   "This field is required."}
                 {errors.message.type === "maxLength" &&

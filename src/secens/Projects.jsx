@@ -83,7 +83,7 @@ const Projects = () => {
       {/* projects */}
       <div className="flex justify-center">
         <motion.div
-          className="sm:grid sm:grid-cols-3"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
           initial="hidden"
           whileInView="visible"
           viewport={{
@@ -95,7 +95,7 @@ const Projects = () => {
         >
           {/* row 1 */}
           <div
-            className="flex justify-center text-center items-center p-10 bg-red max-w-[400px] max-h-[400px]
+            className="flex justify-center text-center items-center p-10 bg-red w-full min-h-[220px] xl:min-h-[400px]
           text-2xl font-playfair font-semibold"
           >
             BEAUTIFULL USER INTERFACES
@@ -103,42 +103,42 @@ const Projects = () => {
           <Project
             title="Panel Home"
             linkProject={"https://panelhome.com.vn/"}
-            imgSrc="./assets/panelhome.png"
+            imgSrc="/assets/panelhome.png"
           />
           <Project
-            imgSrc="./assets/tob9home.png"
+            imgSrc="/assets/tob9home.png"
             title="tob9home"
             linkProject={"https://tob9home.com/"}
           />
           {/* row 2 */}
           <Project
-            imgSrc="./assets/WOWCHIPS.png"
+            imgSrc="/assets/WOWCHIPS.png"
             title="WOWCHIPS"
             linkProject={"https://wowchips.vn/"}
           />
           <Project
-            imgSrc="./assets/HanoiLink.png"
+            imgSrc="/assets/HanoiLink.png"
             title="HanoiLink"
             linkProject={"https://hanoilink.vn/"}
           />
           <Project
-            imgSrc="./assets/staycircadian.png"
+            imgSrc="/assets/staycircadian.png"
             title="staycircadian"
             linkProject={"https://staycircadian.com/"}
           />
           {/* row 3 */}
           <Project
-            imgSrc="./assets/mrbiuhagiangloop.png"
+            imgSrc="/assets/mrbiuhagiangloop.png"
             title="Mr. Biu Tour Ha Giang"
             linkProject={"https://mrbiuhagiangloop.com/"}
           />
           <Project
-            imgSrc="./assets/vietnam-washin.png"
+            imgSrc="/assets/vietnam-washin.png"
             title="vietnam-washin"
             linkProject={"https://vietnam-washin.vn/showroom"}
           />
           <div
-            className="flex justify-center text-center items-center p-10 bg-red max-w-[400px] max-h-[400px]
+            className="flex justify-center text-center items-center p-10 bg-red w-full min-h-[220px] xl:min-h-[400px]
           text-2xl font-playfair font-semibold"
           >
             SMOOTH USER EXPERIENCE

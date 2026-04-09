@@ -26,7 +26,7 @@ function App() {
       <Navbar
         isTopOfPage={isTopOfPage}
         selectedPage={selectedPage}
-        setSelectedPage={selectedPage}
+        setSelectedPage={setSelectedPage}
       />
       <div className="w-5/6 mx-auto md:h-full">
         {isAboveMediumScreens && (
@@ -37,19 +37,29 @@ function App() {
         )}
         <Landing setSelectedPage={setSelectedPage} />
       </div>
-      <LineGradient />
+      <div className="w-5/6 mx-auto py-6 md:py-8 ">
+        <LineGradient />
+      </div>
       <div className="w-5/6 mx-auto md:h-full">
         <MySkills />
       </div>
-      <LineGradient />
+      <div className="w-5/6 mx-auto py-6 md:py-8">
+        <div className="md:hidden xl:block">
+          <LineGradient />
+        </div>
+      </div>
       <div className="w-5/6 mx-auto">
         <Projects />
       </div>
-      <LineGradient />
+      <div className="w-5/6 mx-auto py-6 md:py-8 ">
+        <LineGradient />
+      </div>
       {/* <div className="w-5/6 mx-auto">
         <Testimonials />
       </div> */}
-      <LineGradient />
+      {/* <div className="w-5/6 mx-auto py-6 md:py-8 ">
+        <LineGradient />
+      </div> */}
       <div className="w-5/6 mx-auto">
         <Contact />
       </div>

@@ -8,7 +8,7 @@ const MySkills = () => {
   return (
     <section id="skills" className="pt-10 pb-24">
       {/* header and image section */}
-      <div className="md:flex md:justify-between md:gap-16 mt-0 md:mt-32">
+      <div className="md:flex md:justify-between md:items-start md:gap-12 mt-0 md:mt-24">
         <motion.div
           className="md:w-1/3"
           initial="hidden"
@@ -32,21 +32,25 @@ const MySkills = () => {
             responsive web interface and optimizing performance
           </p>
         </motion.div>
-        <div className="mt-10 md:mt-60">
+        <div className="mt-10 md:mt-24 lg:mt-40">
           {isAboveMediumScreens ? (
             <div
-              className="relative z-0 ml-20 before:absolute before:-top-10 before:-left-10
+              className="relative z-0 md:ml-8 lg:ml-20 before:absolute before:-top-10 before:-left-10
         before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]
          "
             >
               <img
-                src="assets/skills-image.png"
+                src="/assets/skills-image.png"
                 alt="skills"
-                className="z-10"
+                className="z-10 w-full max-w-[420px]"
               />
             </div>
           ) : (
-            <img src="assets/skills-image.png" alt="skills" className="z-10" />
+            <img
+              src="/assets/skills-image.png"
+              alt="skills"
+              className="z-10 w-full max-w-[420px] mx-auto"
+            />
           )}
         </div>
       </div>
@@ -74,7 +78,7 @@ const MySkills = () => {
                 Exprience
               </p>
             </div>
-            <div className="w-1/3 md:3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]"></div>
+            <div className="w-1/3 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]"></div>
           </div>
           <p className="mt-5">
             5+ years building responsive and high-performance websites across
@@ -103,7 +107,7 @@ const MySkills = () => {
                 Innovative
               </p>
             </div>
-            <div className="w-1/3 md:3/4 h-32 bg-red absolute right-0 top-0 z-[-1]"></div>
+            <div className="w-1/3 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]"></div>
           </div>
           <p className="mt-5">
             5+ years building responsive and high-performance websites across
@@ -132,7 +136,7 @@ const MySkills = () => {
                 Imaginative
               </p>
             </div>
-            <div className="w-1/3 md:3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]"></div>
+            <div className="w-1/3 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]"></div>
           </div>
           <p className="mt-5">
             Turning complex designs into pixel-perfect, scalable UI with modern
