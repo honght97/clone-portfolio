@@ -130,7 +130,7 @@ const Contact = () => {
               transition duration-500
               "
             >
-              send me a message
+              Send me a message
             </button>
           </form>
         </motion.div>
