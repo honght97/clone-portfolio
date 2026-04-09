@@ -22,7 +22,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
   return (
     <nav className={`${navbarBackground} w-full z-40 top-0 fixed py-6`}>
       <div className="flex items-center justify-between mx-auto w-5/6">
-        <h4 className="font-playfair text-3xl font-bold">JE</h4>
+        <h4 className="font-playfair text-3xl font-bold">HTH</h4>
         {/* desktop nav */}
         {isAboveSmallScreens ? (
           <div className="flex justify-between gap-16 font-opensans text-sm font-semibold">
@@ -41,11 +41,11 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
-            <Link
+            {/* <Link
               page="Testimonials"
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
-            />
+            /> */}
             <Link
               page="Contact"
               selectedPage={selectedPage}
@@ -86,11 +86,11 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
-              <Link
+              {/* <Link
                 page="Testimonials"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
-              />
+              /> */}
               <Link
                 page="Contact"
                 selectedPage={selectedPage}

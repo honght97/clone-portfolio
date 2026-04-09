@@ -8,10 +8,10 @@ const Footer = () => {
         <SocialMediaIcons />
         <div className="md:flex justify-center md:justify-between text-center">
           <p className="font-playfair font-semibold text-2xl text-yellow">
-            JAN ESPER
+            HT Hồng
           </p>
           <p className="font-playfair text-yellow text-md">
-            ©2023 clone for JAN ESPER.
+            ©2023 clone for HT Hồng.
           </p>
         </div>
       </div>

@@ -46,9 +46,9 @@ function App() {
         <Projects />
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto">
+      {/* <div className="w-5/6 mx-auto">
         <Testimonials />
-      </div>
+      </div> */}
       <LineGradient />
       <div className="w-5/6 mx-auto">
         <Contact />

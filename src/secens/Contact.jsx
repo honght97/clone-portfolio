@@ -13,7 +13,7 @@ const Contact = () => {
     if (!isVaild) e.preventDefault();
   };
   return (
-    <section id="contact" className="py-48">
+    <section id="contact" className="py-20 md:y-48">
       {/* headings */}
       <motion.div
         className=""

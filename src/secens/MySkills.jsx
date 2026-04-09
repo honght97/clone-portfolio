@@ -28,8 +28,8 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde,
-            rerum recusandae necessitatibus corrupti dolores saepe enim.
+            Frontend Developer with 4+ years of experience building modern,
+            responsive web interface and optimizing performance
           </p>
         </motion.div>
         <div className="mt-60 md:mt-0">
@@ -77,10 +77,8 @@ const MySkills = () => {
             <div className="w-1/2 md:3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]"></div>
           </div>
           <p className="mt-5">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
-            fugiat earum ipsum doloremque minima deserunt quasi eos rem est,
-            laborum blanditiis quo exercitationem recusandae. Possimus odit
-            recusandae maiores molestias rem!
+            5+ years building responsive and high-performance websites across
+            various industries.
           </p>
         </motion.div>
         {/* innovative */}
@@ -108,10 +106,8 @@ const MySkills = () => {
             <div className="w-1/2 md:3/4 h-32 bg-red absolute right-0 top-0 z-[-1]"></div>
           </div>
           <p className="mt-5">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
-            fugiat earum ipsum doloremque minima deserunt quasi eos rem est,
-            laborum blanditiis quo exercitationem recusandae. Possimus odit
-            recusandae maiores molestias rem!
+            5+ years building responsive and high-performance websites across
+            various industries.
           </p>
         </motion.div>
         {/* imaginative */}
@@ -139,10 +135,8 @@ const MySkills = () => {
             <div className="w-1/2 md:3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]"></div>
           </div>
           <p className="mt-5">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
-            fugiat earum ipsum doloremque minima deserunt quasi eos rem est,
-            laborum blanditiis quo exercitationem recusandae. Possimus odit
-            recusandae maiores molestias rem!
+            Turning complex designs into pixel-perfect, scalable UI with modern
+            frontend tools.
           </p>
         </motion.div>
       </div>

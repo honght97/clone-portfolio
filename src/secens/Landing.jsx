@@ -21,18 +21,18 @@ const Landing = ({ setSelectedPage }) => {
           "
           >
             <img
-              src="assets/profile-image.png"
+              src="assets/hth.jpg"
               alt="profile"
-              className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full
+              className="rounded-t-full hover:filter hover:saturate-200 transition duration-500 z-10 w-full
               max-w-[300px]
               "
             />
           </div>
         ) : (
           <img
-            src="assets/profile-image.png"
+            src="assets/hth.jpg"
             alt="profile"
-            className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full
+            className="rounded-t-full hover:filter hover:saturate-200 transition duration-500 z-10 w-full
           max-w-[300px]
           "
           />
@@ -55,21 +55,24 @@ const Landing = ({ setSelectedPage }) => {
           }}
         >
           <p className="text-6xl font-playfair z-10 text-center md:text-start">
-            JE {""}
+            HT {""}
             <span
               className="xs:relative xs:text-deep-blue xs:font-semibold z-20
-              xs:before:content-brush before:absolute before:-left-[25px] 
+              xs:before:content-brush before:absolute before:-left-[25px]
               before:-top-[70px] before:z-[-1]
               "
             >
-              ESPER
+              Hồng
             </span>
           </p>
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius,
-            eaque voluptas, expedita esse blanditiis amet dolores rerum id
-            accusantium ea velit neque quae tempora dignissimos optio obcaecati
-            aut est molestias.
+            Frontend Developer with 4+ years of experience in building and
+            maintaining websites using HTML, CSS, and JavaScript. Experienced in
+            developing responsive web interfaces and working with WordPress
+            (WooCommerce). Strong in converting design (Figma/PSD) into
+            pixel-perfect UI. Familiar with jQuery, SCSS, and Git. Able to work
+            independently, meet deadlines, and continuously improve website
+            performance and user experience.
           </p>
         </motion.div>
         <motion.div
